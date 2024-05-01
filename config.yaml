@@ -1,0 +1,32 @@
+cookie:
+  expiry_days: 30
+  key: aqwsedrftyj12324354657gfds
+  name: auth_cookie
+credentials:
+  usernames:
+    abc:
+      email: abc@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: abc
+      password: $2b$12$BdDX6H1bTIn0vD5gbRYkm.QJYklDzYqhkgH8OI1u2cO8W3QZkudiu
+    saketh:
+      email: saketh@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: saketh
+      password: $2b$12$qrKZE.PjmulbHDlc1ix.4uf2NNkBgI2lmZkNGsOdO.RAwgeXrkQsa
+    test:
+      email: test@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: test
+      password: $2b$12$zFMf/.Av91/V/t8l9kdkQOplkfCONjk6nJjsiyAYacrBptA5kyubK
+    testtwo:
+      email: test2@gmail.com
+      logged_in: false
+      name: testtwo
+      password: $2b$12$RK5ysilQ7Ya9YMt5q6Tieen4Bs1Bl43Tw/uMx6i/ZMYPYoUW3IeHK
+pre-authorized:
+  emails:
+  - admin@gmail.com
