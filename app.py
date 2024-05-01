@@ -39,7 +39,7 @@ else:
 
     if authentication_choice == 'Register':
         try:
-            email_of_registered_user, username_of_registered_user, name_of_registered_user, password_of_registered_user = authenticator.register_user(pre_authorization=False)
+            email_of_registered_user, username_of_registered_user, name_of_registered_user = authenticator.register_user(pre_authorization=False)
             if email_of_registered_user:
                 with open('config.yaml', 'w') as file:
                     yaml.dump(config, file, default_flow_style=False)
